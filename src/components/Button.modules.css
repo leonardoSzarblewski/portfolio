@@ -1,0 +1,18 @@
+.btn {
+  color: var(--text-main);
+  background-color: var(--primary);
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0 8px color-mix(in srgb, var(--primary-hover) 25%, transparent);
+  transform: scale(1.05);
+}
