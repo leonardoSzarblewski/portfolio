@@ -31,48 +31,10 @@ strong {
   font-size: 13px;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background-color: var(--bg-main);
+span {
+  color: var(--primary-hover);
 }
 
-nav {
-  padding: 2rem;
-  background-color: var(--bg-main);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.container-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.text-nav {
-  display: flex;
-  gap: 1.2rem;
-}
-
-.img-icon {
-  background-color: var(--primary-hover);
-  padding: 0.5rem;
-  border-radius: 11px;
-}
-
-ul {
-  display: flex;
-  gap: 1.5rem;
-
-  li {
-    list-style: none;
-    font-size: 14px;
-    cursor: pointer;
-    color: var(--primary-hover);
-  }
-}
-
-li:hover {
-  color: var(--primary);
+p {
+  color: var(--text-muted);
 }

@@ -1,0 +1,55 @@
+import "../components/Header.modules.css";
+import quality from "../assets/quality.svg";
+import { Button } from "../components/Button";
+
+export function Header() {
+  return (
+    <header>
+      <nav>
+        <div className="container-nav">
+          <div className="text-nav">
+            <img className="img-icon" src={quality} alt="imagem de inseto" />
+            <div>
+              <h4>@LeonardoSzarblewski</h4>
+              <strong>Quality assurance</strong>
+            </div>
+          </div>
+
+          <div>
+            <ul>
+              <li>Sobre mim</li>
+              <li>Experiência profissional</li>
+              <li>Formação</li>
+              <li>Projetos</li>
+              <li>Stack</li>
+            </ul>
+          </div>
+          <Button>Baixe meu curriculo</Button>
+        </div>
+      </nav>
+
+      <div className="container">
+        <div className="container-header">
+          <div className="text-header">
+            <span>QA Automation Engineer</span>
+          </div>
+          <h1>
+            Garantindo robustez, automação e qualidade de
+            <span> ponta a ponta</span>
+          </h1>
+          <p>
+            Especialista em automação de testes E2E com Playwright & Cypress,
+            validação de APIs REST, BDD com Gherkin e integração contínua
+            (CI/CD). Formação superior em andamento na Uniasselvi e
+            especialização Masterclass Qazando.
+          </p>
+
+          <div className="btns-header">
+            <Button>Ver projetos de automação</Button>
+            <button className="btn-formation">Certificados & Formação</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
