@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-main: #090d16;
+  --bg-card: #161b22;
+  --primary: #10b981;
+  --primary-hover: #34d399;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --border-color: #30363d;
+}
