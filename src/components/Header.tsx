@@ -15,7 +15,7 @@ export function Header() {
             </div>
           </div>
 
-          <div>
+          <div className="nav-items">
             <ul>
               <li>Sobre mim</li>
               <li>Experiência profissional</li>
@@ -24,7 +24,9 @@ export function Header() {
               <li>Stack</li>
             </ul>
           </div>
-          <Button>Baixe meu curriculo</Button>
+          <div className="nav-items">
+            <Button>Baixe meu curriculo</Button>
+          </div>
         </div>
       </nav>
 
