@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 
 export function Header() {
   return (
-    <header>
+    <>
       <nav>
         <div className="container-nav">
           <div className="text-nav">
@@ -17,7 +17,6 @@ export function Header() {
 
           <div className="nav-items">
             <ul>
-              <li>Sobre mim</li>
               <li>Experiência profissional</li>
               <li>Formação</li>
               <li>Projetos</li>
@@ -30,28 +29,30 @@ export function Header() {
         </div>
       </nav>
 
-      <div className="container">
-        <div className="container-header">
-          <div className="text-header">
-            <span>QA Automation Engineer</span>
-          </div>
-          <h1>
-            Garantindo robustez, automação e qualidade de
-            <span> ponta a ponta</span>
-          </h1>
-          <p>
-            Especialista em automação de testes E2E com Playwright & Cypress,
-            validação de APIs REST, BDD com Gherkin e integração contínua
-            (CI/CD). Formação superior em andamento na Uniasselvi e
-            especialização Masterclass Qazando.
-          </p>
+      <header>
+        <div className="container">
+          <div className="container-header">
+            <div className="text-header">
+              <span>QA Automation Engineer</span>
+            </div>
+            <h1>
+              Garantindo robustez, automação e qualidade de
+              <span> ponta a ponta</span>
+            </h1>
+            <p>
+              Especialista em automação de testes E2E com Playwright & Cypress,
+              validação de APIs REST, BDD com Gherkin e integração contínua
+              (CI/CD). Formação superior em andamento na Uniasselvi e
+              especialização Masterclass Qazando.
+            </p>
 
-          <div className="btns-header">
-            <Button>Ver projetos de automação</Button>
-            <button className="btn-formation">Certificados & Formação</button>
+            <div className="btns-header">
+              <Button>Ver projetos de automação</Button>
+              <button className="btn-formation">Certificados & Formação</button>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
