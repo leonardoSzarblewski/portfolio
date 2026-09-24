@@ -4,9 +4,9 @@ export function AboutMe() {
   return (
     <div className="container-aboutme">
       <div>
-        <h2>
+        <h1>
           <span className="aboutme">// SOBRE MIM</span>
-        </h2>
+        </h1>
 
         <p className="aboutme-text">
           Olá! Meu nome é <span>Leonardo Szarblewski</span>, sou formado em
