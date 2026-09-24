@@ -45,6 +45,12 @@ p {
   margin-top: 2rem;
 }
 
+@media (max-width: 980px) {
+  .container-aboutme {
+    padding: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .container-aboutme {
     display: flex;
