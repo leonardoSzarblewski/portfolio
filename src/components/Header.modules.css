@@ -83,7 +83,9 @@ li:hover {
   color: var(--text-main);
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
-  padding: 0.5rem 0.7rem;
+
+  font-size: 1rem;
+  padding: 1rem 2rem;
   border-radius: 13px;
   font-weight: 800;
   cursor: pointer;
