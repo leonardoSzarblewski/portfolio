@@ -1,0 +1,135 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 2rem 1.2rem;
+  border-radius: 2rem;
+
+  cursor: pointer;
+}
+
+.title-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+
+  h3 {
+    flex: 1 1 14rem;
+    min-width: 0;
+  }
+
+  .caption {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 0.5rem;
+
+    strong {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.5rem;
+      padding: 0.4rem 1rem;
+      white-space: nowrap;
+    }
+  }
+
+  strong {
+    border: 1px solid var(--primary);
+    border-radius: 2rem;
+  }
+}
+
+.cards:hover {
+  border: 1px solid var(--primary);
+  transition: 0.3s;
+
+  padding: 2.3rem 1.5rem;
+  box-shadow: 0 0 8px color-mix(in srgb, var(--primary-hover) 25%, transparent);
+}
+
+.container-certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-qualification {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 27rem;
+  height: auto;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container-qualification {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .title-qualification {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .title-qualification h1 {
+    font-size: 2rem;
+  }
+
+  .title-qualification p {
+    font-size: 1rem;
+  }
+
+  .container-cards {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .title-card {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .title-card h3 {
+    flex: 1 1 8rem;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .title-card .caption {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .title-card strong {
+    padding: 0.4rem;
+  }
+
+  .container-certificate {
+    width: 100%;
+  }
+
+  .img-qualification {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}

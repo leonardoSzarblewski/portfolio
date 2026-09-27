@@ -1,0 +1,110 @@
+.container-qualification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  margin-bottom: 2rem;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: min(100%, 72rem);
+  margin-inline: auto;
+  gap: 2rem;
+}
+
+.title-qualification {
+  text-align: center;
+  margin: 0 auto 3rem;
+  align-items: center;
+}
+
+.title-qualification h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 2.4vw + 1.8rem, 4rem);
+  line-height: 1.05;
+  font-weight: 800;
+  color: #f5f7fb;
+  letter-spacing: -0.06em;
+}
+
+.title-qualification p {
+  margin-top: 1rem;
+  color: #94a3b8;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .container-qualification {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .title-qualification {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .title-qualification h1 {
+    font-size: 2rem;
+  }
+
+  .title-qualification p {
+    font-size: 1rem;
+  }
+
+  .container-cards {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .title-card {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .title-card h3 {
+    flex: 1 1 8rem;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .title-card .caption {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .title-card strong {
+    padding: 0.4rem;
+  }
+
+  .container-certificate {
+    width: 100%;
+  }
+
+  .img-qualification {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
