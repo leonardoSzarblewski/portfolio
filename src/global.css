@@ -37,4 +37,5 @@ span {
 
 p {
   color: var(--text-muted);
+  font-size: 1.4rem;
 }
