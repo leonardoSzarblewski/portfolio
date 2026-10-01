@@ -1,4 +1,4 @@
-import "../components/Cards.modules.css";
+import "./Cards.modules.css";
 
 type Props = {
   title: string;

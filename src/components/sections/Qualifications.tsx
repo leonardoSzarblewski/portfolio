@@ -1,18 +1,18 @@
-import { Cards } from "../components/Cards";
+import { Cards } from "../Cards";
 
-import "../components/Qalification.modules.css";
+import "./Qalification.modules.css";
 
-import masterclass from "../assets/certificates/masterclass.png";
-import apiqazando from "../assets/certificates/apiqazando.png";
-import cypressintermediario from "../assets/certificates/cypressintermediario.png";
-import git from "../assets/certificates/git.png";
-import jsparatester from "../assets/certificates/jsparatester.png";
-import conceitosbasicosapi from "../assets/certificates/conceitosbasicosapi.png";
-import apicomcypress from "../assets/certificates/apicomcypress.png";
-import cypressdozeroanuvem from "../assets/certificates/cypressdozeroanuvem.png";
-import fundamentoshtmlcss from "../assets/certificates/fundamentoshtmlcss.png";
-import gitegithub from "../assets/certificates/gitegithub.png";
-import javascriptrocketseat from "../assets/certificates/javascriptrocketseat.png";
+import masterclass from "../../assets/certificates/masterclass.png";
+import apiqazando from "../../assets/certificates/apiqazando.png";
+import cypressintermediario from "../../assets/certificates/cypressintermediario.png";
+import git from "../../assets/certificates/git.png";
+import jsparatester from "../../assets/certificates/jsparatester.png";
+import conceitosbasicosapi from "../../assets/certificates/conceitosbasicosapi.png";
+import apicomcypress from "../../assets/certificates/apicomcypress.png";
+import cypressdozeroanuvem from "../../assets/certificates/cypressdozeroanuvem.png";
+import fundamentoshtmlcss from "../../assets/certificates/fundamentoshtmlcss.png";
+import gitegithub from "../../assets/certificates/gitegithub.png";
+import javascriptrocketseat from "../../assets/certificates/javascriptrocketseat.png";
 
 export function Qualifications() {
   return (

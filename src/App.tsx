@@ -1,8 +1,8 @@
-import { Header } from "./components/Header";
-import { AboutMe } from "./components/AboutMe";
-import { Career } from "./components/Career";
-import { Qualifications } from "./components/Qualifications";
-import { Projects } from "./components/Projects";
+import { Header } from "./components/sections/Header";
+import { AboutMe } from "./components/sections/AboutMe";
+import { Career } from "./components/sections/Career";
+import { Qualifications } from "./components/sections/Qualifications";
+import { Projects } from "./components/sections/Projects";
 
 import "./global.css";
 

@@ -1,4 +1,4 @@
-import "../components/Career.mdoules.css";
+import "./Career.mdoules.css";
 
 export function Career() {
   return (

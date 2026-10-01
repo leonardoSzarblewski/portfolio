@@ -1,4 +1,4 @@
-import "../components/Button.modules.css";
+import "./Button.modules.css";
 
 type Props = {
   children: string;

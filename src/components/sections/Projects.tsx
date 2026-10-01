@@ -1,6 +1,6 @@
-import "../components/Projects.modules.css";
+import "./Projects.modules.css";
 
-import { Button } from "../components/Button";
+import { Button } from "../Button";
 
 export function Projects() {
   return (

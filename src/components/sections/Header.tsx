@@ -1,6 +1,6 @@
-import "../components/Header.modules.css";
-import quality from "../assets/quality.svg";
-import { Button } from "../components/Button";
+import "./Header.modules.css";
+import quality from "../../assets/quality.svg";
+import { Button } from "../Button";
 
 export function Header() {
   return (
