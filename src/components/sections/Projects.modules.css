@@ -55,6 +55,20 @@
   line-height: 1.6;
 }
 
+.category-emphasis {
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgba(52, 211, 153, 0.22),
+    rgba(37, 151, 113, 0.16)
+  );
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-hover);
+  border-radius: 1rem;
+}
+
 .category {
   padding: 0.5rem;
   border: 1px solid var(--primary-hover);

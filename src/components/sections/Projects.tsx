@@ -1,6 +1,7 @@
 import "./Projects.modules.css";
 
 import { Button } from "../Button";
+import star from "../../assets/star.svg";
 
 export function Projects() {
   return (
@@ -20,7 +21,10 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>QazandoShop</h3>
-              <strong className="category">Automação E2E</strong>
+              <div className="category-emphasis">
+                <img src={star} alt="estrela" />
+                <strong>Automação E2E</strong>
+              </div>
             </div>
             <div>
               <p className="text-project">
@@ -39,7 +43,10 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>bookerAutomationApi</h3>
-              <strong className="category">Automação API</strong>
+              <div className="category-emphasis">
+                <img src={star} alt="estrela" />
+                <strong>Cypress API</strong>
+              </div>
             </div>
             <div>
               <p className="text-project">
@@ -58,7 +65,10 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>agendamento-pet</h3>
-              <strong className="category">React</strong>
+              <div className="category-emphasis">
+                <img src={star} alt="estrela" />
+                <strong>React</strong>
+              </div>
             </div>
             <div>
               <p className="text-project">
@@ -75,7 +85,7 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>RESTful-api-automacao</h3>
-              <strong className="category">Automação API</strong>
+              <strong className="category-emphasis">Automação API</strong>
             </div>
             <div>
               <p className="text-project">
@@ -95,7 +105,7 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>cypress-intermediario</h3>
-              <strong className="category">Cypress</strong>
+              <strong className="category-emphasis">Cypress</strong>
             </div>
             <div>
               <p className="text-project">
@@ -116,7 +126,7 @@ export function Projects() {
           <div className="cards">
             <div className="title-card-project">
               <h3>cypress-do-zero-a-nuvem</h3>
-              <strong className="category">Cypress</strong>
+              <strong className="category-emphasis">Cypress</strong>
             </div>
             <div>
               <p className="text-project">

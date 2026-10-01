@@ -42,14 +42,6 @@
   }
 }
 
-.cards:hover {
-  border: 1px solid var(--primary);
-  transition: 0.3s;
-
-  padding: 2.3rem 1.5rem;
-  box-shadow: 0 0 8px color-mix(in srgb, var(--primary-hover) 25%, transparent);
-}
-
 .container-certificate {
   display: flex;
   justify-content: center;
