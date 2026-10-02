@@ -14,9 +14,13 @@ import fundamentoshtmlcss from "../../assets/certificates/fundamentoshtmlcss.png
 import gitegithub from "../../assets/certificates/gitegithub.png";
 import javascriptrocketseat from "../../assets/certificates/javascriptrocketseat.png";
 
-export function Qualifications() {
+type Props = {
+  id: string;
+};
+
+export function Qualifications({ id }: Props) {
   return (
-    <div className="container-qualification">
+    <div id={id} className="container-qualification">
       <div className="title-qualification">
         <span>Qualificações & Aprendizado</span>
         <h1>Formações e Certificados</h1>

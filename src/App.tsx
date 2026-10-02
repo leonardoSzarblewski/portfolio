@@ -11,9 +11,9 @@ function App() {
     <div>
       <Header />
       <AboutMe />
-      <Career />
-      <Qualifications />
-      <Projects />
+      <Career id="experiencia-profissional" />
+      <Qualifications id="cursos" />
+      <Projects id="projetos" />
     </div>
   );
 }

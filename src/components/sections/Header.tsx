@@ -17,9 +17,17 @@ export function Header() {
 
           <div className="nav-items">
             <ul>
-              <li>Experiência profissional</li>
-              <li>Cursos</li>
-              <li>Projetos</li>
+              <a href="#experiencia-profissional">
+                <li>Experiência profissional</li>
+              </a>
+
+              <a href="#cursos">
+                <li>Cursos</li>
+              </a>
+
+              <a href="#projetos">
+                <li>Projetos</li>
+              </a>
             </ul>
           </div>
           <div className="nav-items">

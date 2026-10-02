@@ -3,9 +3,13 @@ import "./Projects.modules.css";
 import { Button } from "../Button";
 import star from "../../assets/star.svg";
 
-export function Projects() {
+type Props = {
+  id: string;
+};
+
+export function Projects({ id }: Props) {
   return (
-    <div className="container-projects">
+    <div id={id} className="container-projects">
       <div className="container-title">
         <span>Projetos</span>
         <h1>Desenvolvimento e Automação</h1>

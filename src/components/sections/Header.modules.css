@@ -44,6 +44,10 @@ ul {
   }
 }
 
+.nav-items a {
+  text-decoration: none;
+}
+
 li:hover {
   color: var(--primary);
 }

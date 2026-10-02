@@ -1,8 +1,12 @@
 import "./Career.mdoules.css";
 
-export function Career() {
+type Props = {
+  id: string;
+};
+
+export function Career({ id }: Props) {
   return (
-    <section className="career-section">
+    <section id={id} className="career-section">
       <div className="career-header">
         <span>Trajetória Profissional</span>
         <h1>Experiência Profissional</h1>
