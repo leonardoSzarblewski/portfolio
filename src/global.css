@@ -44,3 +44,7 @@ p {
   color: var(--text-muted);
   font-size: 1.4rem;
 }
+
+a {
+  text-decoration: none;
+}

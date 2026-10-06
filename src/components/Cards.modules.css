@@ -8,6 +8,14 @@
   padding: 2rem 1.2rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.cards:hover {
+  border: 1px solid var(--primary-hover);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--primary-hover) 38%, transparent);
 }
 
 .title-card {
@@ -54,10 +62,13 @@
   margin-top: 1rem;
   max-width: 27rem;
   height: auto;
+  border-radius: 1rem;
+
+  transition: box-shadow 0.3s ease;
 }
 
-img {
-  border-radius: 1rem;
+.img-qualification:hover {
+  box-shadow: 0 0 18px rgba(255, 217, 0, 0.45);
 }
 
 @media (max-width: 768px) {
