@@ -1,6 +1,5 @@
 import "./Header.modules.css";
 import quality from "../../assets/quality.svg";
-import { Button } from "../Button";
 
 export function Header() {
   return (
@@ -30,9 +29,10 @@ export function Header() {
               </a>
             </ul>
           </div>
-          <div className="nav-items">
-            <Button>Baixe meu curriculo</Button>
-          </div>
+
+          <a className="curriculum" href="">
+            Meu currículo
+          </a>
         </div>
       </nav>
     </>
