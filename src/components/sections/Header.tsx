@@ -10,8 +10,8 @@ export function Header() {
           <div className="text-nav">
             <img className="img-icon" src={quality} alt="imagem de inseto" />
             <div>
-              <h4>@LeonardoSzarblewski</h4>
-              <strong>Quality assurance</strong>
+              <h3>Leonardo Szarblewski</h3>
+              <strong>QA Engineer | Software Developer</strong>
             </div>
           </div>
 
@@ -22,7 +22,7 @@ export function Header() {
               </a>
 
               <a href="#cursos">
-                <li>Cursos</li>
+                <li>Certificados</li>
               </a>
 
               <a href="#projetos">
