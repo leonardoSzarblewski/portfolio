@@ -90,3 +90,52 @@ ul {
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  nav {
+    padding: 1rem;
+  }
+
+  .container-nav {
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .text-nav {
+    flex: 1;
+    min-width: 0;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .text-nav > div {
+    min-width: 0;
+  }
+
+  .text-nav h3 {
+    font-size: 1rem;
+    overflow-wrap: anywhere;
+  }
+
+  .text-nav strong {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .img-icon {
+    flex: 0 0 2.5rem;
+    width: 2.5rem;
+  }
+
+  .curriculum {
+    flex: 0 0 auto;
+    max-width: 6.5rem;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+  }
+
+  .curriculum {
+    font-size: 0.7rem;
+  }
+}

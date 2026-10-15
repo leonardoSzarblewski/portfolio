@@ -189,7 +189,12 @@
     margin-top: 1.25rem;
   }
 
-  .profile-section {
-    margin-top: 1.25rem;
+  .about-me-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-me-content .btn {
+    width: 100%;
   }
 }
